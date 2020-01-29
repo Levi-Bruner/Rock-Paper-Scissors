@@ -1,0 +1,11 @@
+/* * {
+  border: solid 1px black;
+} */
+
+.choice-row {
+  justify-content: space-evenly;
+}
+
+.game-row{
+  justify-content: space-between;
+}

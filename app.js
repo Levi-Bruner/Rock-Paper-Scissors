@@ -28,40 +28,40 @@ function play(playerChoice) {
 
   if (playerChoice == "rock" && computerChoice == "rock") {
     computerRock();
-    window.alert("It's a tie!")
+    setTimeout(function () { alert("It's a tie!"); }, 500);
   }
   if (playerChoice == "rock" && computerChoice == "scissors") {
     computerScissors();
-    window.alert("You won!")
+    setTimeout(function () { alert("You won!"); }, 500);
   }
   if (playerChoice == "rock" && computerChoice == "paper") {
     computerPaper();
-    window.alert("You lost...")
+    setTimeout(function () { alert("You lost..."); }, 500);
   }
   // "paper"
   if (playerChoice == "paper" && computerChoice == "rock") {
     computerRock();
-    window.alert("You won!")
+    setTimeout(function () { alert("You won!"); }, 500);
   }
   if (playerChoice == "paper" && computerChoice == "scissors") {
     computerScissors();
-    window.alert("You lost...")
+    setTimeout(function () { alert("You lost..."); }, 500);
   }
   if (playerChoice == "paper" && computerChoice == "paper") {
     computerPaper();
-    window.alert("It's a tie!")
+    setTimeout(function () { alert("It's a tie!"); }, 500);
   }
   // "scissors" 
   if (playerChoice == "scissors" && computerChoice == "rock") {
     computerRock();
-    window.alert("You lost...")
+    setTimeout(function () { alert("You lost..."); }, 500);
   }
   if (playerChoice == "scissors" && computerChoice == "paper") {
     computerPaper();
-    window.alert("You won!")
+    setTimeout(function () { alert("You won!"); }, 500);
   }
   if (playerChoice == "scissors" && computerChoice == "scissors") {
     computerScissors();
-    window.alert("It's a tie!")
+    setTimeout(function () { alert("It's a tie!"); }, 500);
   }
 }

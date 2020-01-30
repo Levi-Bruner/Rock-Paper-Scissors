@@ -17,7 +17,7 @@
   <header class="container-fluid bg-light">
     <div class="row d-flex justify-content-center">
       <col-12>
-        <h4>Rock Paper Scissors</h4>
+        <h1>Rock Paper Scissors</h1>
       </col-12>
     </div>
   </header>
@@ -25,30 +25,39 @@
     <div class="container-fluid">
       <div class="row d-flex justify-content-center">
         <col-12>
-          Make your choice...
+          <h2>Make your choice...</h2>
         </col-12>
       </div>
       <div class="row choice-row">
         <col-4>
-          <button onclick="play('rock')" type="button" class="btn btn-dark" btn-lg btn-block">Rock</button>
+          <button onclick="play('rock'); playerRock()" type="button" class="btn btn-dark" btn-lg
+            btn-block">Rock</button>
         </col-4>
         <col-4>
-          <button onclick="play('paper')" type="button" class="btn btn-dark" btn-lg btn-block">Paper</button>
+          <button onclick="play('paper'); playerPaper()" type="button" class="btn btn-dark" btn-lg
+            btn-block">Paper</button>
         </col-4>
         <col-4>
-          <button onclick="play('scissors')" type="button" class="btn btn-dark" btn-lg btn-block">Scissors</button>
+          <button onclick="play('scissors'); playerScissors()" type="button" class="btn btn-dark" btn-lg
+            btn-block">Scissors</button>
         </col-4>
       </div>
       <div class="row game-row d-flex">
-        <col-4 class="player">
-          player
-        </col-4>
-        <col-4 class="vs">
-          vs
-        </col-4>
-        <col-4 class="computer">
-          computer
-        </col-4>
+        <!-- <col-4 class="player">
+          <img id="pic-1"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvAzIS2JtDVmHbGht5axcEVFw2YI5cA3jaysAlPe-lmluu3V6-qA&s">
+        </col-4> -->
+        <col-12-col-md-4 class="player">
+          <img id="pic-1"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvAzIS2JtDVmHbGht5axcEVFw2YI5cA3jaysAlPe-lmluu3V6-qA&s">
+        </col-12-col-md-4>
+        <col-12-col-md-4 class="vs">
+          <h1>vs</h1>
+        </col-12-col-md-4>
+        <col-12-col-md-4 class="computer">
+          <img src="https://www.skadate.com/blog/wp-content/uploads/2013/05/how_to_choose_website_designers.jpg"
+            id="pic-2">
+        </col-12-col-md-4>
       </div>
     </div>
   </main>
